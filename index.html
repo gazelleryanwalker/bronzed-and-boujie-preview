@@ -203,6 +203,17 @@
   .gram-tile{background:#e7e2d6 !important}
   .gram-tile::after{content:none !important}
   .gram-tile img{width:100%;height:100%;object-fit:cover;display:block}
+
+  .aftercare{background:rgba(255,255,255,.5)!important;backdrop-filter:blur(7px)}
+  .care-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:760px){.care-grid{grid-template-columns:1fr}}
+  .care{background:var(--aqua);border-radius:18px;padding:30px 26px;text-align:center;transition:transform .35s,background .35s}
+  .care:hover{transform:translateY(-6px);background:#fff}
+  .care .ic{font-size:30px;margin-bottom:12px}
+  .care h4{font-family:'Bebas Neue';font-size:26px;letter-spacing:.03em;color:var(--brown);margin-bottom:8px}
+  .care p{font-size:14px;color:var(--ink-soft);font-weight:300}
+  .care-note{text-align:center;max-width:640px;margin:34px auto 0;color:var(--ink-soft);font-weight:400}
+  .care-note a{color:var(--bronze);font-weight:500}
 </style>
 </head>
 <body>
@@ -352,6 +363,22 @@
       <div class="addon reveal"><div class="ic">💧</div><h4>Prep Spray</h4><p>Primes skin for an even tan</p></div>
       <div class="addon reveal"><div class="ic">⭐</div><h4>Tanning Stickers</h4><p>Cute tan-line art, on request</p></div>
     </div>
+  </div>
+</section>
+
+<section class="aftercare" id="aftercare">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Make it last</span>
+      <h2>Hydrate. Maintain. <em>Glow.</em></h2>
+      <p>A flawless custom tan is just the start &mdash; aftercare is what keeps it flawless. Think of your tan like fresh hair color: you wouldn&rsquo;t invest in it, then skip the maintenance.</p>
+    </div>
+    <div class="care-grid">
+      <div class="care reveal"><div class="ic">💧</div><h4>Moisturize daily</h4><p>Lock in your color and keep skin soft and supple between sessions.</p></div>
+      <div class="care reveal"><div class="ic">🥤</div><h4>Stay hydrated</h4><p>Hydrated skin holds a smoother, longer-lasting, more even glow.</p></div>
+      <div class="care reveal"><div class="ic">🤎</div><h4>Treat skin with care</h4><p>Gentle, mindful care extends the life of your custom tan.</p></div>
+    </div>
+    <p class="care-note reveal">Want it to last even longer? I carry <strong>self-tanning foams &amp; lotions</strong> that perfectly match the custom solution from your spray tan &mdash; the easy way to keep that just-sprayed glow between appointments. <a href="https://bronzedandboujie.glossgenius.com/book">Ask at your appointment &rarr;</a></p>
   </div>
 </section>
 
