@@ -6,7 +6,7 @@
     <title>Bronzed & Boujie · Mobile Spray Tans · St. Petersburg, FL</title>
     <meta name="description" content="Custom-blended, never-orange mobile spray tans across St. Petersburg and Tampa Bay. 9-minute application, 2-hour rapid rinse. Book on GlossGenius." />
     <meta name="author" content="Bronzed & Boujie" />
-    <link rel="icon" href="./assets/logo-CbaszaS3.png" />
+    <link rel="icon" href="/assets/logo-CbaszaS3.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,7 +27,7 @@
         "telephone": "+1-561-990-9698",
         "email": "bronzed.and.boujie@gmail.com",
         "url": "https://bronzedandboujie.com",
-        "image": "/src./assets/logo.png",
+        "image": "/src/assets/logo.png",
         "areaServed": [
           { "@type": "City", "name": "St. Petersburg" },
           { "@type": "City", "name": "Tampa" },
@@ -48,8 +48,8 @@
         }
       }
     </script>
-    <script type="module" crossorigin src="./assets/index-z0cZ7_Kx.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CMCkOyMn.css">
+    <script type="module" crossorigin src="/assets/index-z0cZ7_Kx.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CMCkOyMn.css">
   </head>
 
   <body>
